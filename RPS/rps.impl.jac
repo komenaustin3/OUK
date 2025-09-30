@@ -1,8 +1,11 @@
 impl RPS.start{
     if not [root-->( ` ? round ) ] {
-        self.player_move = input("Enter rock, paper or scissors: ");
-        next = root ++> round(random.choice(["Rock", "Paper", "Scissors"]));
-        self.round_num + 1;
+        self.round_num = 1;
+        self.human_score = 0;
+        self.computer_score = 0;
+        # self.player_move = input("Enter rock, paper or scissors: ");
+        next =
+            root ++> round(random.choice(["Rock", "Paper", "Scissors"]));
     } else {
         next = [root-->( ` ? round ) ];
     }
