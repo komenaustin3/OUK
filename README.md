@@ -1,0 +1,1 @@
+This is a simple Rock, Paper and Scissors game built using Jac. It takes the user input eithe Rock, Paper or Scissors then the computer picks a choice randomly then they are both displayed and it checks for the winner. 
